@@ -1,0 +1,153 @@
+.top {
+  position: relative;
+}
+
+.background {
+  width: 100%;
+}
+
+.top-background {
+  position: absolute;
+  border-radius: 100%;
+  left: 20%;
+  top: 15%;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #1B455E;
+  font-family: 'Merriweather', serif;
+  color: white;
+}
+
+h1 {
+  margin-top: 0;
+  position: absolute;
+  top: 33%;
+  left: 43%;
+  font-family: 'Sacramento', cursive;
+  font-size: 3em;
+  color: #16344C;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted white 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.para {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  font-size: 1.4em;
+  top: 40%;
+  left: 42%;
+  color: #16344C;
+}
+
+.skill-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.L-img {
+  width: 20%;
+}
+
+.Anime-img {
+  width: 30%;
+  float: right;
+  margin-left: 20px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  padding-bottom: 80px;
+}
+
+.profile {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  line-height: 2;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #F0EEE1;
+  padding: 25px;
+}
+
+a {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1B455E;
+}
+
+.footer-para {
+  margin-bottom: 0;
+  color: black;
+  font-weight: bold;
+}
+
+/**************************Button**********************************************/
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius:8px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:11px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/******************************************************************************/
